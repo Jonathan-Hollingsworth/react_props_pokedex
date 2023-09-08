@@ -5,7 +5,7 @@ const Pokecard = ({id, name, type, base_experience}) => {
         <div className='pokemon'>
           <b>{name}</b>
           <br />
-          <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`}/>
+          <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`} alt={name}/>
           <p>Type: {type}</p>
           <p>EXP: {base_experience}</p>
         </div>
